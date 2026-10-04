@@ -18,9 +18,7 @@
   --mobile-width: 420px;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 html, body, #root {
   margin: 0;
@@ -31,24 +29,11 @@ html, body, #root {
   font-family: 'Inter', 'Noto Sans KR', sans-serif;
 }
 
-body {
-  min-height: 100vh;
-}
+body { min-height: 100vh; }
 
-button,
-input,
-a {
-  font: inherit;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
+button, input, a { font: inherit; }
+button { cursor: pointer; }
+img { max-width: 100%; display: block; }
 
 .page-shell {
   width: min(100%, var(--mobile-width));
@@ -105,9 +90,7 @@ img {
   border: 1px solid rgba(255, 143, 179, 0.08);
 }
 
-.hero-card {
-  padding: 22px 18px;
-}
+.hero-card { padding: 22px 18px; }
 
 .eyebrow {
   margin: 0 0 12px;
@@ -170,18 +153,10 @@ img {
   padding: 0 18px;
 }
 
-.full-width {
-  width: 100%;
-}
+.full-width { width: 100%; }
 
-.feature-box {
-  padding: 20px 18px;
-}
-
-.feature-box h3 {
-  margin: 0 0 14px;
-  font-size: 1.05rem;
-}
+.feature-box { padding: 20px 18px; }
+.feature-box h3 { margin: 0 0 14px; font-size: 1.05rem; }
 
 .feature-grid {
   display: grid;
@@ -211,10 +186,7 @@ img {
   padding: 24px 18px;
 }
 
-.auth-card h2 {
-  margin: 0;
-  font-size: 1.7rem;
-}
+.auth-card h2 { margin: 0; font-size: 1.7rem; }
 
 .auth-subtitle {
   color: var(--sub-text);
@@ -266,6 +238,12 @@ img {
   font-size: 0.8rem;
 }
 
+.success-message {
+  margin: 4px 0 0;
+  color: var(--success);
+  font-size: 0.8rem;
+}
+
 .auth-footer,
 .auth-links {
   margin-top: 18px;
@@ -291,10 +269,7 @@ img {
   padding: 10px 0 18px;
 }
 
-.topbar h1 {
-  margin: 0;
-  font-size: 1.2rem;
-}
+.topbar h1 { margin: 0; font-size: 1.2rem; }
 
 .topbar-actions {
   display: flex;

@@ -109,13 +109,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         });
 
         if (error) throw error;
-
-        if (!rememberMe) {
-          await supabase.auth.setSession({
-            access_token: '',
-            refresh_token: '',
-          } as any);
-        }
       },
       signOut: async () => {
         if (!supabase) return;
