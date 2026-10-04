@@ -70,7 +70,7 @@ export default function LoginPage() {
 
         <div className="auth-links">
           <Link to="/signup">회원가입</Link>
-          <Link to="/">비밀번호 재설정</Link>
+          <Link to="/forgot-password">비밀번호 재설정</Link>
         </div>
       </div>
     </div>

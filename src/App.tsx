@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/landing/LandingPage';
 import SignUpPage from './pages/auth/SignUpPage';
 import LoginPage from './pages/auth/LoginPage';
+import ForgotPasswordPage from './pages/auth/ForgotPasswordPage';
 import HomePage from './pages/home/HomePage';
 import NotFoundPage from './pages/not-found/NotFoundPage';
 import { AuthProvider } from './providers/AuthProvider';
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route
             path="/home"
             element={
